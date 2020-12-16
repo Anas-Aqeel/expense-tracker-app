@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://www.setaswall.com/wp-content/uploads/2019/08/Whatsapp-Wallpaper-120.jpg");
+    /* overflow: hidden; */
+}
+.main{
+    height: 600px;
+    width: 500px !important;
+    margin: 15px auto;
+}
+.heading h2{
+    text-align: center;
+    color: white;
+}
+.total{
+    background-color: azure;
+    height: 100px;
+    margin: 30px 30px 10px 30px;
+    border-radius: 5px;
+}
+.total h3{
+    padding: 5px 10px;
+}
+.total h2{
+    font-size: 2rem;
+    padding-left: 15px;
+}
+.income{
+    background-color: azure;
+    height: 100px;
+    width: 330px !important;
+    margin: 10px;
+    border-radius: 5px;
+    overflow-x: scroll;
+    padding: 10px;
+    overflow-x: scroll;
+}
+.income::-webkit-scrollbar {
+    display: none;
+  }
+  .income div{
+      display: flex;
+      flex-wrap: nowrap;
+  }
+.expense{
+    background-color: azure;
+    height: 100px;
+    width: 330px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    overflow-x: scroll;
+    padding: 10px;
+}
+.expense::-webkit-scrollbar {
+    display: none;
+  }
+.operator{
+    display: flex;
+    justify-content: center;
+    padding: 0 22px;
+}
+.income h3{
+    font-size: 25px;
+    color: green;
+    margin-bottom: 6px;
+}
+.expense h3{
+    font-size: 25px;
+    color: rgb(226, 39, 39);
+    margin-bottom: 6px;
+}
+.modal1{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    background: linear-gradient(green,red);
+}
+.modal1:focus{
+    border: none;
+    outline: none;
+}
+.inp1{
+    width: 420px !important;
+    border: none;
+    border-bottom: 1px solid rgb(88, 88, 88);
+    margin: 10px;
+}
+.inp2{
+    width: 420px !important;
+    border: none;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    margin: 10px;
+}
+.inp2:hover,.inp1:hover{
+    border-bottom: 2px solid #000;
+}
+.inp1:focus,.inp2:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #3f51b5;
+}
+.pera{
+    padding: 10px 0 0 10px;
+}
+.btn1,.btn2{
+    background-color: white;
+    border: none;
+    color: #3f51b5;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+.btn1:hover,.btn2:hover{
+    background-color: rgb(228, 228, 228);
+    padding: 5px;
+}
+.calc{
+    background-color: azure;
+    height: 70px;
+    margin: 1px 30px 3px 30px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+.calc .span1{
+    font-size: 0.9rem;
+    display: block;
+}
+.calc .span2{
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block;
+
+}
+#footer{
+    padding: 20px 0;
+}
+.recent{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+#income,#expense{
+    font-size: 28px !important;
+}
